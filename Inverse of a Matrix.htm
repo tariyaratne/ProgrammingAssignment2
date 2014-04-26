@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html><!-- #BeginTemplate "/Templates/Advanced.dwt" --><!-- DW6 --><head>
+<!-- #BeginEditable "doctitle" -->
+<title>Inverse of a Matrix</title>
+<meta name="Description" content="Math explained in easy language, plus puzzles, games, quizzes, worksheets and a forum. For K-12 kids, teachers and parents.">
+<!-- #EndEditable -->
+<meta name="keywords" content="math, maths, mathematics, school, homework, education">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="pics-label" content="(PICS-1.1 &quot;http://www.classify.org/safesurf/&quot; L gen true for &quot;http://www.mathsisfun.com&quot; r (SS~~000 1))">
+<link rel="stylesheet" type="text/css" href="Inverse%20of%20a%20Matrix_files/style2.css">
+<script async="" src="Inverse%20of%20a%20Matrix_files/cbgapi.loaded_1"></script><script async="" src="Inverse%20of%20a%20Matrix_files/cbgapi.loaded_0"></script><script src="Inverse%20of%20a%20Matrix_files/ga.js" async="" type="text/javascript"></script><script gapi_processed="true" src="Inverse%20of%20a%20Matrix_files/plusone.js" async="" type="text/javascript"></script><script src="Inverse%20of%20a%20Matrix_files/main.js" type="text/javascript"></script><meta content="width=device-width; initial-scale=1.0; user-scalable=true;" name="viewport" id="viewport"><meta content="true" name="HandheldFriendly" id="HandheldFriendly">
+</head>
+
+<body>
+<div class="centerfull">
+<div id="adv">
+	<div id="midfull">
+		<div id="header" role="banner">
+
+			<div id="searchBox" role="search">
+				<form action="../sphider/search.php" method="get">
+					<input name="query" id="searchFld" type="text">
+					<input value="Search" name="submit" id="searchBtn" type="submit">
+					<input name="search" value="1" type="hidden">
+				</form>
+			</div>
+
+			<div id="linkto">
+				<script type="text/javascript">getAdRight2();</script><a target="_blank" href="http://twitter.com/home?status=Inverse%20of%20a%20Matrix:%20http://www.mathsisfun.com/algebra/matrix-inverse.html" id="linktw">Twitter</a> <a target="_blank" href="http://www.stumbleupon.com/submit?url=http://www.mathsisfun.com/algebra/matrix-inverse.html&amp;title=Inverse+of+a+Matrix" id="linksu">StumbleUpon</a> <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.mathsisfun.com/algebra/matrix-inverse.html&amp;t=Inverse%20of%20a%20Matrix" id="linkfb">Facebook</a> <a href="javascript:linkToUs()" id="linkus">Link To Us</a><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 106px; height: 24px;"><iframe title="+1" data-gapiattached="true" src="Inverse%20of%20a%20Matrix_files/fastbutton.htm" name="I0_1398485273814" id="I0_1398485273814" vspace="0" tabindex="0" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+			</div>
+
+		</div>
+		<div id="menu" class="centerfull" role="navigation">
+			<ul>
+				<li><a href="http://www.mathsisfun.com/index.htm">Home</a></li>
+				<li><a href="http://www.mathsisfun.com/numbers/index.html">Numbers</a></li>
+				<li><a href="http://www.mathsisfun.com/algebra/index.html">Algebra</a></li>
+				<li><a href="http://www.mathsisfun.com/geometry/index.html">Geometry</a></li>
+				<li><a href="http://www.mathsisfun.com/data/index.html">Data</a></li>
+				<li><a href="http://www.mathsisfun.com/measure/index.html">Measure</a></li>
+				<li><a href="http://www.mathsisfun.com/puzzles/index.html">Puzzles</a></li>
+				<li><a href="http://www.mathsisfun.com/games/index.html">Games</a></li>
+				<li><a href="http://www.mathsisfun.com/definitions/index.html">Dictionary</a></li>
+				<li><a href="http://www.mathsisfun.com/worksheets/index.php">Worksheets</a> </li>
+			</ul>
+	</div>
+			<div id="adhid2">
+				<div id="showads1"><a href="javascript:showads()">Show Ads</a></div>
+				<div id="hideads1"><a href="javascript:hideads()">Hide Ads</a><br><a href="http://www.mathsisfun.com/about-ads.html">About Ads</a></div>
+			</div>
+
+		<div id="topads" class="centerfull noprint"> 
+			<script type="text/javascript"><!--
+				google_ad_client = "pub-1389989178296449";
+				google_ad_width = 468;
+				google_ad_height = 60;
+				google_ad_format = "468x60_as";
+				google_ad_channel ="5488288671";
+				google_ad_type = "text_image";
+				google_color_border = "FFFFFF";
+				google_color_bg = "FFFFFF";
+				google_color_link = "FF0000";
+				google_color_url = "000000";
+				google_color_text = "000000";
+				//--></script> 
+			<script type="text/javascript" src="Inverse%20of%20a%20Matrix_files/show_ads.js"></script><ins style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="60" scrolling="no" width="468"></iframe></ins></ins> 
+		</div>
+		<div id="content" role="main"> <!-- #BeginEditable "Body" -->
+			<h1 align="center">Inverse of a Matrix</h1>
+			<p align="center">Please read our <a href="http://www.mathsisfun.com/algebra/matrix-introduction.html">Introduction to Matrices</a> first.</p>
+			<h2>What is the Inverse of a Matrix?			</h2>
+			<p>The Inverse of a Matrix is the <b>same idea</b> as the <a href="http://www.mathsisfun.com/reciprocal.html">reciprocal</a> of a number:</p>
+			<p align="center"><img src="Inverse%20of%20a%20Matrix_files/reciprocal-reciprocal.gif" alt="Reciprocals" height="108" width="187"><br>
+			Reciprocal of a Number</p>
+			<div align="center"></div>
+<p>But we don't  write <span class="larger"><span class="frac"><sup>1</sup>/<sub>A</sub></span></span> (because we don't divide by a Matrix!), instead we write <span class="larger">A<sup>-1</sup></span> for the inverse:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-both.gif" height="107" width="182"></p>
+<p>(In fact <span class="larger"><span class="frac"><sup>1</sup>/<sub>8</sub></span></span> can also be written as  <span class="larger">8<sup>-1</sup></span>)</p>
+<p>And there are other similarities:</p>
+<div class="dotpoint">
+	<p>When you <b>multiply a number</b> by its <b>reciprocal</b> you get <b>1</b></p></div>
+	<div class="center80">
+		<div class="larger" align="center">8 × (<span class="frac"><sup>1</sup>/<sub>8</sub></span>) = <b>1</b></div>
+	</div>
+
+<div class="dotpoint">
+	<p>When you <b>multiply a Matrix</b> by its <b>Inverse</b> you get the<b> Identity Matrix</b> (which is like "1" for Matrices):</p>
+</div>
+<div class="larger" align="center"></div>
+<div class="center80">
+	<div class="larger" align="center">A × A<sup>-1</sup> = <b>I</b></div>
+</div>
+<p>&nbsp;</p>
+<p>It also works when the inverse comes first: <span class="larger">(<span class="frac"><sup>1</sup>/<sub>8</sub></span>) × 8 = <b>1</b></span> and <span class="larger">A<sup>-1</sup> × A = <b>I</b></span></p>
+<div class="center80">
+	<h3>Identity Matrix</h3>
+	<p>Note: the "Identity Matrix" is the matrix equivalent of the number "1":</p>
+	<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-identity.gif" alt="Identity Matrix" height="95" width="186"><br>
+		<span class="large">A 3x3 Identity Matrix</span><br>
+	</p>
+	<ul>
+		<li>It is "square" (has same number of rows as columns),</li>
+		<li>It has <b>1</b>s on the diagonal and <b>0</b>s everywhere else. </li>
+		<li>It's symbol is the capital letter <b>I</b>.</li>
+		</ul>
+	<p>The Identity Matrix can be 2×2 in size, or 3×3, 4×4, etc ...</p>
+</div>
+<h2>Definition</h2>
+<p>So we have a definition of a Matrix Inverse ...</p>
+<div class="def">
+	<p>The Inverse of <span class="larger">A</span> is  <span class="larger">A<sup>-1</sup></span> only when:</p>
+	<p align="center"> <span class="larger">A × A<sup>-1</sup> = A<sup>-1</sup> × A = <b>I</b></span></p>
+<p>Sometimes there is no Inverse at all.</p>
+</div>
+<h2>2x2 Matrix</h2>
+<p>OK, how do we calculate the Inverse? </p>
+<p>Well, for a 2x2 Matrix the Inverse is:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2.gif" height="128" width="355"></p>
+<p>In other words: <b>swap</b> the positions of a and d, put <b>negatives</b> in front of b and c, and <b>divide</b> everything by the determinant (ad-bc).</p>
+<p>Let us try an example:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-ex1.gif" height="232" width="373"></p>
+<p>How do we know this is the right answer?</p>
+<p class="center80" align="center">Remember it must be true that: <span class="larger">A × A<sup>-1</sup> = <b>I</b></span></p>
+<p>So, let us check to see what happens  when we <a href="http://www.mathsisfun.com/algebra/matrix-multiplying.html">multiply the matrix</a> by its inverse:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-ex2.gif" height="218" width="595"></p>
+<p align="center">And, hey!, we end up with the Identity Matrix! So it must be right.</p>
+<p class="center80" align="center">It should <b>also</b> be true that: <span class="larger">A<sup>-1</sup> × A = <b>I</b></span></p>
+<p>Why don't you have a go at multiplying these? See if you also get the Identity Matrix:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-ex3.gif" height="71" width="598"></p>
+<p>&nbsp;</p>
+<h2>Why Would We Want an Inverse?</h2>
+			<p>Because  with Matrices we <b>don't divide</b>! Seriously, there is no concept of dividing by a Matrix.</p>
+			<p>But we can <b>multiply by an Inverse</b>, which achieves the same thing.</p>
+			<div class="example">
+				<p><b>Imagine</b> you couldn't divide by numbers, and someone asked "How do I share 10 apples with  2 people?"</p>
+				<p>But you could take the <b>reciprocal</b> of 2 (which is 0.5), so you could answer:</p>
+				<p align="center"><b>10 × 0.5 = 5</b></p>
+				<p align="center">They get 5 apples each</p>
+			</div>
+<p>The same thing can be done with Matrices:</p>
+<div class="example">
+	<p>Say that you know Matrix A and B, and want to find Matrix X:</p>
+	<p class="larger" align="center">XA = B</p>
+	<p>It would be nice to divide both sides by A (to get X=B/A), but remember <b>we can't divide</b>.</p>
+	<p>&nbsp;</p>
+	<p>But what if we multiply both sides by A<sup>-1</sup> ?</p>
+	<p class="larger" align="center">XAA<sup>-1</sup> = BA<sup>-1</sup></p>
+	<p>And we know that AA<sup>-1</sup> = I, so:</p>
+	<p class="larger" align="center">XI = BA<sup>-1</sup></p>
+	<p>We can remove I (for the same reason we could remove "1" from 1x = ab for numbers):</p>
+	
+	<p class="larger" align="center">X = BA<sup>-1</sup></p>
+	<p>And we have our answer (assuming we can calculate A<sup>-1</sup>)</p></div>
+<p>In that example we were very careful to get the multiplications 
+correct, because with Matrices the order of multiplication matters. AB 
+is almost never equal to BA.</p>
+<h2>A Real Life Example</h2>
+<p>A group took a trip on a bus, at  $3 per child and $3.20 per adult for a total of $118.40. </p>
+<p>They took the train back at $3.50 per child and $3.60 per adult for a total of $135.20.</p>
+<p>How many children, and how many adults?</p>
+<p>&nbsp;</p>
+<p>First, let us set up the matrices (be careful to get the rows and columns correct!):</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exr1.gif" height="96" width="487"></p>
+<p>This is just like the example above:</p>
+<p align="center"><span class="larger">XA = B</span></p>
+<p>So to solve it we need the inverse of "A":</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exr2.gif" height="152" width="521"></p>
+<p>&nbsp;</p>
+<p>Now we have the inverse we can solve using:</p>
+<p align="center"><span class="larger">X = BA<sup>-1</sup></span></p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exr3.gif" height="170" width="574"></p>
+<p>There were 16 children and 22 adults!</p>
+<p>The answer almost appears like magic. But it is based on good mathematics.</p>
+<div class="center80">
+	<p>Calculations like that (but using much larger matrices) help 
+Engineers design buildings, are used in video games and computer 
+animations to make things look 3-dimensional, and many other places.</p>
+	<p>It is also a way to solve <a href="http://www.mathsisfun.com/algebra/systems-linear-equations.html">Systems of Linear Equations</a>.</p>
+	<p>The calculations are done by computer, but the people must understand the formulas.</p>
+</div>
+<p>&nbsp;</p>
+<h2>Order is Important</h2>
+<div class="example">
+	<p>Say that you are trying to find "X" in this case:</p>
+	<p class="larger" align="center">AX = B</p>
+	<p><b>This is different to the example above!</b> X is now <b>after</b> A.</p>
+	<p>With Matrices the order of multiplication usually changes the answer. Do not assume that AB = BA, it is almost never true.</p>
+	<p>&nbsp;</p>
+	<p>So how do we solve this one? Using the same method, but put A<sup>-1</sup> in front:	</p>
+	<p class="larger" align="center">A<sup>-1</sup>AX = A<sup>-1</sup>B</p>
+	<p>And we know that A<sup>-1</sup>A= I, so:</p>
+	<p class="larger" align="center">IX = A<sup>-1</sup>B</p>
+	<p>We can remove I:</p>
+	
+	<p class="larger" align="center">X = A<sup>-1</sup>B</p>
+	<p>And we have our answer (assuming we can calculate A<sup>-1</sup>)</p>
+</div>
+<p><b>Why don't we try our example from above, but with the  data set up this way around. </b>(Yes, you can do this, just be careful how you set it up.)</p>
+<p>This is what it looks like as <span class="larger">AX = B</span>:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exs1.gif" height="66" width="338"></p>
+<p>It looks so neat! I think I prefer it like this.</p>
+<p align="center"><i>Also note how the rows and columns are swapped over ("Transposed") <br>
+	compared to the previous example.</i></p>
+<p>To solve it we need the inverse of "A":</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exs2.gif" height="150" width="522"><br>
+	It is  like the Inverse we got before, but <br>
+	Transposed (rows and columns swapped over).</p>
+<p>Now we can solve using:</p>
+<p align="center"><span class="larger">X = A<sup>-1</sup>B</span></p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-exs3.gif" height="65" width="723"></p>
+<p>Same answer:  16 children and 22 adults.</p>
+<p>So, Matrices are powerful things, but they do need to be set up correctly!</p>
+<p>&nbsp;</p>
+<h2>The Inverse May Not Exist</h2>
+<p>First of all, to have an Inverse the Matrix must be "Square" (same number of rows and columns).</p>
+<p>But also the <b>determinant cannot be zero</b> (or you would end up dividing by zero). How about this:</p>
+<p align="center"><img src="Inverse%20of%20a%20Matrix_files/matrix-inverse-2x2-singular.gif" height="154" width="381"></p>
+<p align="center"><b>24-24?</b> That equals 0, and <b>1/0 is undefined</b>. <br>
+	We cannot go any further! 
+	This Matrix has no Inverse.</p>
+<p class="larger" align="center">Such a Matrix is called "Singular", which only happens when the determinant is zero.</p>
+<p>And it makes sense ... look at the numbers:  the second row is just double the first row, and does <b>not add any new information</b>.</p>
+<p>Imagine in our example above that the prices on the train were 
+exactly, say, 50% higher ... we wouldn't be any closer to figuring out 
+how many adults and children ... we need something different.</p>
+<p>And the determinant neatly works this out.</p>
+<p>&nbsp;</p>
+<h2>Bigger Matrices</h2>
+<p>The inverse of a 2x2 is  <b>easy</b> ... compared to larger matrices (such as a 3x3, 4x4, etc). </p>
+<p>For those larger matrices there are three main methods to work out the inverse:</p>
+<ul>
+<li><a href="http://www.mathsisfun.com/algebra/matrix-inverse-row-operations-gauss-jordan.html">Inverse of a Matrix using Elementary Row Operations (Gauss-Jordan)</a></li>
+		<li><a href="http://www.mathsisfun.com/algebra/matrix-inverse-minors-cofactors-adjugate.html">Inverse of a Matrix using Minors, Cofactors and Adjugate</a></li>
+		<li>Use a computer (such as the <a href="http://www.mathsisfun.com/algebra/matrix-calculator.html">Matrix Calculator</a>)</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Conclusion</h2>
+<ul>
+	<div class="bigul">
+		<li>The Inverse of <span class="larger">A</span> is <span class="larger">A<sup>-1</sup></span> only when  <span class="larger">A × A<sup>-1</sup> = A<sup>-1</sup> × A = <b>I</b></span></li>
+		<li>To find the Inverse of a 2x2 Matrix: <b>swap</b> the positions of a and d, put <b>negatives</b> in front of b and c, and <b>divide</b> everything by the determinant (ad-bc).</li>
+		<li>Sometimes there is no Inverse at all</li>
+	</div>
+</ul>
+<p>&nbsp;</p>
+<div class="questions">
+<script type="text/javascript">getQ(106, 2606, 2607, 2608, 2609, 2610, 2611, 2612);</script><a href="javascript:doQ(106,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;1</a> <a href="javascript:doQ(2606,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;2</a> <a href="javascript:doQ(2607,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;3</a> <a href="javascript:doQ(2608,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;4</a> <a href="javascript:doQ(2609,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;5</a> <a href="javascript:doQ(2610,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;6</a> <a href="javascript:doQ(2611,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;7</a> <a href="javascript:doQ(2612,'106_2606_2607_2608_2609_2610_2611_2612')">Question&nbsp;8</a> &nbsp;
+</div>
+
+	<div class="related">
+    <a href="http://www.mathsisfun.com/algebra/matrix-multiplying.html">Multiplying Matrices</a>
+        <a href="http://www.mathsisfun.com/algebra/matrix-determinant.html">Determinant of a Matrix</a> 
+<a href="http://www.mathsisfun.com/algebra/matrix-calculator.html">Matrix Calculator</a>
+    <a href="http://www.mathsisfun.com/algebra/index.html">Algebra Index</a>    </div>
+			<!-- #EndEditable --> 
+		</div>
+		<div id="footer" class="centerfull noprint">
+			<div class="footFriend"><a href="javascript:tellAFriend();"></a></div>
+			<div class="footFave"><a href="javascript:addFavorites();"></a></div>
+			<div class="footLink"><a href="javascript:linkToUs();"></a></div>
+		</div>
+		<div id="foot-menu" class="centerfull"><a href="http://www.mathsisfun.com/sphider/search.php">Search</a> :: <a href="http://www.mathsisfun.com/links/index.html">Index</a> :: <a href="http://www.mathsisfun.com/aboutmathsisfun.html">About</a> :: <a href="http://www.mathsisfun.com/contact.php">Contact</a> :: <a href="javascript:Contribute()">Contribute</a> :: <a href="javascript:Citation()">Cite This Page</a> :: <a href="http://www.mathsisfun.com/Privacy.htm">Privacy</a> <br>
+			<br>
+			<span class="tiny">Copyright © 2014 MathsIsFun.com</span> <br>
+		</div>
+	</div>
+</div>
+</div>
+<div class="left column zneg">
+	<div id="leftcol"></div>
+</div>
+<div class="right column zneg">
+	<div id="rightcol"></div>
+</div>
+<script type="text/javascript">getBodyEnd();</script><script type="text/javascript">(function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();</script><script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-29771508-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+
+
+<iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="Inverse%20of%20a%20Matrix_files/postmessageRelay.htm" id="oauth2relay287270114" name="oauth2relay287270114"></iframe></body><!-- #EndTemplate --><iframe src="" style="display: none;"></iframe></html>
