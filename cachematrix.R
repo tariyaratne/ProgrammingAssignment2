@@ -39,7 +39,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## **2nd Function**
 ## This function computes the Inverse Matrix of  "m" (a square matrix) if not already cached in memeory. 
-## If cached (stored) in memory it returns the Inverse Matrix of x without repeating the computation.
+## If cached (stored) in memory, and the matrix has not changed, it returns the Inverse Matrix of x 
+## without repeating the computation.
 
 cacheSolve <- function(x, ...) {
   m <- x$getInverse()
