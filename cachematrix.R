@@ -1,5 +1,5 @@
-##The overall aim of this excercise is to make use of the "cache" assignment operator in R when computing
-## an Inverse Matrix of a square matrix, such that if a <- matrix(1:4,2)
+##The overall aim of this excercise is to make use of the "cache" (<<-) assignment operator in R 
+## when computing an Inverse Matrix of a square matrix, such that if a <- matrix(1:4,2)
 ##> a$get()
 ##   [,1] [,2]
 ##[1,]  1    3
@@ -16,7 +16,7 @@
 
 
 ## **1st Function**
-## This function attempts the cache (i.e. store in global env.) a particular matrix "x" as matrix "m"
+## This function attempts to cache (i.e. store in global env.) a particular matrix "x" as matrix "m"
 ## it also creates 4 functions:
 ##     1) a function 'get' to return matrix x when prompted (i.e. x$get()); 
 ##     2) a function 'set' to create a matrix x when prompted (i.e. x$set(matrix(.....)))
